@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Control } from '../model/control';
 
 @Component({
   selector: 'control-summary-card',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./control-summary-card.component.css']
 })
 export class ControlSummaryCardComponent implements OnInit {
+
+  @Input() control: Control;
 
   constructor() { }
 

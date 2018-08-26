@@ -1,2 +1,2 @@
-.control-summary-card-list {height: calc(100vh - 32px);overflow-y: hidden;overflow-x: hidden;}
-.control-summary-card-list:hover {overflow-y: auto;}
+.control-list {height: calc(100vh - 32px);overflow-y: hidden;overflow-x: hidden;}
+.control-list:hover {overflow-y: auto;}

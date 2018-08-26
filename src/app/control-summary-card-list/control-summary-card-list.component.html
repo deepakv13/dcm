@@ -1,8 +1,10 @@
-<!-- <div class="control-summary-card-list pad-15" *ngFor="let control of controls">
-    <control-summary-card ></control-summary-card>
-</div> -->
+<div class="control-list pad-15">
+    <div *ngFor="let control of controls">
+        <control-summary-card [control]=control></control-summary-card>
+    </div>
+</div>
 
-<div class='table-responsive'>
+<!-- <div class='table-responsive'>
     <table class='table'>
         <thead>
             <tr>
@@ -11,14 +13,11 @@
             </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let c of controls">
-            <td>1</td>
-            <td>something</td>
-          </tr>
-            <!-- <tr *ngFor="let control of controls">
+            <tr *ngFor="let control of controls">
                 <td>{{control.id}}</td>
                 <td>{{control.name}}</td>
-            </tr> -->
+            </tr>
         </tbody>
     </table>
-</div>
+</div> -->
+

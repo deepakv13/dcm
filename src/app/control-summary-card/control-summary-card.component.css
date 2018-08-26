@@ -1,0 +1,5 @@
+.card {background: #fff; padding: 10px;margin-top:15px;width: calc(33vw - 30px);box-shadow: 0px 3px 7px 0px #ccc; cursor: pointer;}
+.selected {width: calc(33vw - 11px);}
+.title {font-size: 12px; font-family: Arial; color: #008de6;margin-bottom: 0px !important;}
+.normalTxt {font-size: 12px; font-family: Arial; color: #53565a;margin-bottom: 0px !important;}
+hr {margin: 3px 0px !important;}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Control } from '../model/control';
 
 @Component({
   selector: 'control-summary-card-list',
@@ -7,13 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ControlSummaryCardListComponent implements OnInit {
 
-  controls: [1, 2, 3
-    // {"id": "1", "name": "first control"},
-    // {"id": "2", "name": "second control"},
-    // {"id": "3", "name": "third control"}
+  controls: Control[] = [
+    {"id":"1", "name":"first control", "aoa":"sandbox"},
+    {"id":"2", "name":"second control", "aoa":"sandbox"},
+    {"id":"3", "name":"third control", "aoa":"sandbox"}
   ];
-
-  control: {id:"5", name:"fifth control"};
 
   constructor() { }
 
